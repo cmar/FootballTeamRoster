@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  RosterViewController.h
 //  FootballTeamRoster
 //
 //  Created by cmar on 4/21/11.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
 
-    NSArray *teams;
+@interface RosterViewController : UITableViewController {
+    
 }
 
 @end

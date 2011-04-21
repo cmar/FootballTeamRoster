@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Steelers</string>
+			<key>url</key>
+			<string>http://www.steelers.com/team/roster.html</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Seahawks</string>
+			<key>url</key>
+			<string>http://www.seahawks.com/team/roster.html</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bengals</string>
+			<key>url</key>
+			<string>http://www.bengals.com/team/roster.html</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Redskins</string>
+			<key>url</key>
+			<string>http://www.redskins.com/team/roster.html</string>
+		</dict>
+	</array>
+</dict>
+</plist>
