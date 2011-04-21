@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2B129813607B9F000DFC67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B129713607B9F000DFC67 /* UIKit.framework */; };
+		0B2B129A13607B9F000DFC67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B129913607B9F000DFC67 /* Foundation.framework */; };
+		0B2B129C13607B9F000DFC67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B129B13607B9F000DFC67 /* CoreGraphics.framework */; };
+		0B2B12A213607B9F000DFC67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B12A013607B9F000DFC67 /* InfoPlist.strings */; };
+		0B2B12A513607B9F000DFC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B12A413607B9F000DFC67 /* main.m */; };
+		0B2B12A813607B9F000DFC67 /* FootballTeamRosterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B12A713607B9F000DFC67 /* FootballTeamRosterAppDelegate.m */; };
+		0B2B12AB13607B9F000DFC67 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B12A913607B9F000DFC67 /* MainWindow.xib */; };
+		0B2B12AE13607B9F000DFC67 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B12AD13607B9F000DFC67 /* RootViewController.m */; };
+		0B2B12B113607B9F000DFC67 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B12AF13607B9F000DFC67 /* RootViewController.xib */; };
+		0B2B12B813607B9F000DFC67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B129713607B9F000DFC67 /* UIKit.framework */; };
+		0B2B12B913607B9F000DFC67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B129913607B9F000DFC67 /* Foundation.framework */; };
+		0B2B12BA13607B9F000DFC67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2B129B13607B9F000DFC67 /* CoreGraphics.framework */; };
+		0B2B12C213607B9F000DFC67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B12C013607B9F000DFC67 /* InfoPlist.strings */; };
+		0B2B12C513607B9F000DFC67 /* FootballTeamRosterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B12C413607B9F000DFC67 /* FootballTeamRosterTests.h */; };
+		0B2B12C713607B9F000DFC67 /* FootballTeamRosterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B12C613607B9F000DFC67 /* FootballTeamRosterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2B12BB13607B9F000DFC67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2B128A13607B9E000DFC67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2B129213607B9F000DFC67;
+			remoteInfo = FootballTeamRoster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2B129313607B9F000DFC67 /* FootballTeamRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballTeamRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2B129713607B9F000DFC67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0B2B129913607B9F000DFC67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0B2B129B13607B9F000DFC67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0B2B129F13607B9F000DFC67 /* FootballTeamRoster-Info.plist */ = {isa = PBXFileReference; path = "FootballTeamRoster-Info.plist"; sourceTree = "<group>"; };
+		0B2B12A113607B9F000DFC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B2B12A313607B9F000DFC67 /* FootballTeamRoster-Prefix.pch */ = {isa = PBXFileReference; path = "FootballTeamRoster-Prefix.pch"; sourceTree = "<group>"; };
+		0B2B12A413607B9F000DFC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B2B12A613607B9F000DFC67 /* FootballTeamRosterAppDelegate.h */ = {isa = PBXFileReference; path = FootballTeamRosterAppDelegate.h; sourceTree = "<group>"; };
+		0B2B12A713607B9F000DFC67 /* FootballTeamRosterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballTeamRosterAppDelegate.m; sourceTree = "<group>"; };
+		0B2B12AA13607B9F000DFC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0B2B12AC13607B9F000DFC67 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		0B2B12AD13607B9F000DFC67 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0B2B12B013607B9F000DFC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0B2B12B713607B9F000DFC67 /* FootballTeamRosterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballTeamRosterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2B12BF13607B9F000DFC67 /* FootballTeamRosterTests-Info.plist */ = {isa = PBXFileReference; path = "FootballTeamRosterTests-Info.plist"; sourceTree = "<group>"; };
+		0B2B12C113607B9F000DFC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0B2B12C313607B9F000DFC67 /* FootballTeamRosterTests-Prefix.pch */ = {isa = PBXFileReference; path = "FootballTeamRosterTests-Prefix.pch"; sourceTree = "<group>"; };
+		0B2B12C413607B9F000DFC67 /* FootballTeamRosterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootballTeamRosterTests.h; sourceTree = "<group>"; };
+		0B2B12C613607B9F000DFC67 /* FootballTeamRosterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootballTeamRosterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2B129013607B9F000DFC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B129813607B9F000DFC67 /* UIKit.framework in Frameworks */,
+				0B2B129A13607B9F000DFC67 /* Foundation.framework in Frameworks */,
+				0B2B129C13607B9F000DFC67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2B12B313607B9F000DFC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B12B813607B9F000DFC67 /* UIKit.framework in Frameworks */,
+				0B2B12B913607B9F000DFC67 /* Foundation.framework in Frameworks */,
+				0B2B12BA13607B9F000DFC67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2B128813607B9E000DFC67 = {
+			isa = PBXGroup;
+			children = (
+				0B2B129D13607B9F000DFC67 /* FootballTeamRoster */,
+				0B2B12BD13607B9F000DFC67 /* FootballTeamRosterTests */,
+				0B2B129613607B9F000DFC67 /* Frameworks */,
+				0B2B129413607B9F000DFC67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2B129413607B9F000DFC67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B129313607B9F000DFC67 /* FootballTeamRoster.app */,
+				0B2B12B713607B9F000DFC67 /* FootballTeamRosterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B2B129613607B9F000DFC67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B129713607B9F000DFC67 /* UIKit.framework */,
+				0B2B129913607B9F000DFC67 /* Foundation.framework */,
+				0B2B129B13607B9F000DFC67 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B2B129D13607B9F000DFC67 /* FootballTeamRoster */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B12A613607B9F000DFC67 /* FootballTeamRosterAppDelegate.h */,
+				0B2B12A713607B9F000DFC67 /* FootballTeamRosterAppDelegate.m */,
+				0B2B12A913607B9F000DFC67 /* MainWindow.xib */,
+				0B2B12AC13607B9F000DFC67 /* RootViewController.h */,
+				0B2B12AD13607B9F000DFC67 /* RootViewController.m */,
+				0B2B12AF13607B9F000DFC67 /* RootViewController.xib */,
+				0B2B129E13607B9F000DFC67 /* Supporting Files */,
+			);
+			path = FootballTeamRoster;
+			sourceTree = "<group>";
+		};
+		0B2B129E13607B9F000DFC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B129F13607B9F000DFC67 /* FootballTeamRoster-Info.plist */,
+				0B2B12A013607B9F000DFC67 /* InfoPlist.strings */,
+				0B2B12A313607B9F000DFC67 /* FootballTeamRoster-Prefix.pch */,
+				0B2B12A413607B9F000DFC67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B2B12BD13607B9F000DFC67 /* FootballTeamRosterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B12C413607B9F000DFC67 /* FootballTeamRosterTests.h */,
+				0B2B12C613607B9F000DFC67 /* FootballTeamRosterTests.m */,
+				0B2B12BE13607B9F000DFC67 /* Supporting Files */,
+			);
+			path = FootballTeamRosterTests;
+			sourceTree = "<group>";
+		};
+		0B2B12BE13607B9F000DFC67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B12BF13607B9F000DFC67 /* FootballTeamRosterTests-Info.plist */,
+				0B2B12C013607B9F000DFC67 /* InfoPlist.strings */,
+				0B2B12C313607B9F000DFC67 /* FootballTeamRosterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2B129213607B9F000DFC67 /* FootballTeamRoster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2B12CA13607B9F000DFC67 /* Build configuration list for PBXNativeTarget "FootballTeamRoster" */;
+			buildPhases = (
+				0B2B128F13607B9F000DFC67 /* Sources */,
+				0B2B129013607B9F000DFC67 /* Frameworks */,
+				0B2B129113607B9F000DFC67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootballTeamRoster;
+			productName = FootballTeamRoster;
+			productReference = 0B2B129313607B9F000DFC67 /* FootballTeamRoster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B2B12B613607B9F000DFC67 /* FootballTeamRosterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2B12CD13607B9F000DFC67 /* Build configuration list for PBXNativeTarget "FootballTeamRosterTests" */;
+			buildPhases = (
+				0B2B12B213607B9F000DFC67 /* Sources */,
+				0B2B12B313607B9F000DFC67 /* Frameworks */,
+				0B2B12B413607B9F000DFC67 /* Resources */,
+				0B2B12B513607B9F000DFC67 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2B12BC13607B9F000DFC67 /* PBXTargetDependency */,
+			);
+			name = FootballTeamRosterTests;
+			productName = FootballTeamRosterTests;
+			productReference = 0B2B12B713607B9F000DFC67 /* FootballTeamRosterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2B128A13607B9E000DFC67 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0B2B128D13607B9E000DFC67 /* Build configuration list for PBXProject "FootballTeamRoster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B2B128813607B9E000DFC67;
+			productRefGroup = 0B2B129413607B9F000DFC67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2B129213607B9F000DFC67 /* FootballTeamRoster */,
+				0B2B12B613607B9F000DFC67 /* FootballTeamRosterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2B129113607B9F000DFC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B12A213607B9F000DFC67 /* InfoPlist.strings in Resources */,
+				0B2B12AB13607B9F000DFC67 /* MainWindow.xib in Resources */,
+				0B2B12B113607B9F000DFC67 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2B12B413607B9F000DFC67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B12C213607B9F000DFC67 /* InfoPlist.strings in Resources */,
+				0B2B12C513607B9F000DFC67 /* FootballTeamRosterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B2B12B513607B9F000DFC67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2B128F13607B9F000DFC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B12A513607B9F000DFC67 /* main.m in Sources */,
+				0B2B12A813607B9F000DFC67 /* FootballTeamRosterAppDelegate.m in Sources */,
+				0B2B12AE13607B9F000DFC67 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2B12B213607B9F000DFC67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2B12C713607B9F000DFC67 /* FootballTeamRosterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2B12BC13607B9F000DFC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2B129213607B9F000DFC67 /* FootballTeamRoster */;
+			targetProxy = 0B2B12BB13607B9F000DFC67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2B12A013607B9F000DFC67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2B12A113607B9F000DFC67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0B2B12A913607B9F000DFC67 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2B12AA13607B9F000DFC67 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0B2B12AF13607B9F000DFC67 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2B12B013607B9F000DFC67 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		0B2B12C013607B9F000DFC67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2B12C113607B9F000DFC67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2B12C813607B9F000DFC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0B2B12C913607B9F000DFC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0B2B12CB13607B9F000DFC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballTeamRoster/FootballTeamRoster-Prefix.pch";
+				INFOPLIST_FILE = "FootballTeamRoster/FootballTeamRoster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0B2B12CC13607B9F000DFC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballTeamRoster/FootballTeamRoster-Prefix.pch";
+				INFOPLIST_FILE = "FootballTeamRoster/FootballTeamRoster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0B2B12CE13607B9F000DFC67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballTeamRoster.app/FootballTeamRoster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballTeamRosterTests/FootballTeamRosterTests-Prefix.pch";
+				INFOPLIST_FILE = "FootballTeamRosterTests/FootballTeamRosterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0B2B12CF13607B9F000DFC67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FootballTeamRoster.app/FootballTeamRoster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FootballTeamRosterTests/FootballTeamRosterTests-Prefix.pch";
+				INFOPLIST_FILE = "FootballTeamRosterTests/FootballTeamRosterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2B128D13607B9E000DFC67 /* Build configuration list for PBXProject "FootballTeamRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2B12C813607B9F000DFC67 /* Debug */,
+				0B2B12C913607B9F000DFC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2B12CA13607B9F000DFC67 /* Build configuration list for PBXNativeTarget "FootballTeamRoster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2B12CB13607B9F000DFC67 /* Debug */,
+				0B2B12CC13607B9F000DFC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B2B12CD13607B9F000DFC67 /* Build configuration list for PBXNativeTarget "FootballTeamRosterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2B12CE13607B9F000DFC67 /* Debug */,
+				0B2B12CF13607B9F000DFC67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2B128A13607B9E000DFC67 /* Project object */;
+}
